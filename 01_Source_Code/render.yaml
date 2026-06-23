@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: vaanisetu-backend
+    env: python
+    region: singapore   # closest to India
+    plan: free
+    buildCommand: |
+      apt-get install -y tesseract-ocr tesseract-ocr-tel tesseract-ocr-hin \
+                         tesseract-ocr-tam tesseract-ocr-kan espeak espeak-data || true
+      pip install -r backend/requirements.txt
+    startCommand: cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false       # Set in Render dashboard
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: AUDIO_DIR
+        value: /tmp/vaanisetu_audio
+      - key: DEBUG
+        value: "false"

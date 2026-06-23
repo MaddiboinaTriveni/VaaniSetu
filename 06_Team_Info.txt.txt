@@ -1,0 +1,9 @@
+Project Name: VaaniSetu
+
+Participant: Maddiboina Triveni
+
+Branch: B.Tech CSE
+
+Competition: Bharat Academix CodeQuest 2026
+
+Theme: Social Impact & AI

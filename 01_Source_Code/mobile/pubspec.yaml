@@ -1,0 +1,56 @@
+name: vaanisetu
+description: AI-powered multilingual legal document translation for rural India
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera & image
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+
+  # Networking
+  http: ^1.2.0
+  dio: ^5.4.3+1
+
+  # Audio playback
+  just_audio: ^0.9.39
+  audio_session: ^0.1.21
+
+  # On-device TTS fallback
+  flutter_tts: ^4.0.2
+
+  # Permissions
+  permission_handler: ^11.3.0
+
+  # Sharing
+  share_plus: ^9.0.0
+  url_launcher: ^6.2.6
+
+  # State management
+  provider: ^6.1.2
+
+  # Storage
+  shared_preferences: ^2.2.3
+
+  # UI helpers
+  flutter_svg: ^2.0.10+1
+  lottie: ^3.1.0
+  shimmer: ^3.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
