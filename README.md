@@ -54,7 +54,7 @@ VaaniSetu is a 4-stage AI pipeline:
 
 ```bash
 # Clone
-git clone https://github.com/trivenimaddiboina/VaaniSetu
+git clone https://github.com/MaddiboinaTriveni/VaaniSetu
 cd vaanisetu
 
 # Install system dependencies (Ubuntu)
