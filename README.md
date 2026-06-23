@@ -45,7 +45,8 @@ VaaniSetu is a 4-stage AI pipeline:
 | ![Result](docs/screenshots/result.png) | Audio player + 4 info cards |
 
 **Live demo:** https://vaanisetu.onrender.com  
-**Demo video:** [YouTube link — add after recording]
+**Demo video:** https://drive.google.com/file/d/1Vjh194aNRNCH3W-NWOIJYG2F2IgOYmix/view?usp=sharing
+
 
 ---
 
@@ -53,7 +54,7 @@ VaaniSetu is a 4-stage AI pipeline:
 
 ```bash
 # Clone
-git clone https://github.com/trivenimaddiboina/vaanisetu
+git clone https://github.com/trivenimaddiboina/VaaniSetu
 cd vaanisetu
 
 # Install system dependencies (Ubuntu)
